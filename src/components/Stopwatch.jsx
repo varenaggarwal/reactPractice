@@ -23,7 +23,6 @@ const Stopwatch = () => {
   return (
     <div>
       <p>Time: {time} sec</p>
-      {console.log({ time, isRunning })}
       <button onClick={toggleStartStop}>{isRunning ? "Stop" : "Start"}</button>
       <button onClick={handleReset}>Reset</button>
     </div>
